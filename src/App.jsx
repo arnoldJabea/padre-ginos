@@ -7,11 +7,23 @@ const App = () => {
   return (
     <div>
       <h1>  Padre Gino's - Order Now</h1>
-      <Pizza name="Margherita" description="A classic pizza" />
-      <Pizza name="Capricciosa" description="A pizza with tomatoes and mozzarella" />
-      <Pizza name="Funghi" description="A pizza with mushrooms and mozzarella" />
+      <Pizza
+        name="Pepperoni"
+        description="pep, cheese, and tomatoes"
+        image={"/public/pizzas/pepperoni.webp"}
+      />
+      <Pizza
+        name="Hawaiian"
+        description="ham, pineapple, and mozzarella"
+        image={"/public/pizzas/hawaiian.webp"}
+      />
+      <Pizza
+        name="Americano"
+        description="french fries, hot dogs, and ketchup"
+        image={"/public/pizzas/big_meat.webp"}
+      />
     </div>
-  )
+  );
     
  
 };
