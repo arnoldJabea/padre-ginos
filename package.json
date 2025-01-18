@@ -1,7 +1,7 @@
 {
   "name": "padre-ginos",
   "version": "1.0.0",
-  "description": "",
+  "description": "The best pizza ever",
   "main": "index.js",
   "scripts": {
     "build": "vite build",
@@ -15,11 +15,11 @@
   "type": "module",
   "author": "Jabea Arnold",
   "license": "ISC",
-  "description": "The best pizza ever",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.1",
     "globals": "^15.9.0",
     "prettier": "^3.3.3",
     "vite": "^5.4.2"
