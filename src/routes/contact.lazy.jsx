@@ -22,6 +22,7 @@ function contactRoute() {
         },
     });
 
+    
     return (
         <div className="contact">
             <h2>Contact</h2>
